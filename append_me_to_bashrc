@@ -1,4 +1,4 @@
-alias python=python3
+alias py=python3
 alias dk=docker
 alias here="nohup nautilus -w . > /dev/null &"
 alias cls=clear
