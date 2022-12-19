@@ -1,7 +1,10 @@
 # my_bashrc
 
-## Shortcut for python
+## Shortcut for Python3
 ```alias py=python3```
+
+## For quickly creating Python3 virutal envirnoments
+alias pyenv="python3 -m venv"
 
 ## Shortcut for docker
 ```alias dk=docker```
@@ -11,7 +14,12 @@
 ```alias cls=clear```
 ## For opening another console
 ```alias another="gnome-terminal & disown"```
+
+function port() {
+  sudo lsof -i:$1
+}
 ## Shortcut for checking a specific open ports
-```function port() {
+```
+function port() {
   sudo lsof -i:$1
 }```
