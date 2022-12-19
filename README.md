@@ -4,7 +4,7 @@
 ```alias py=python3```
 
 ## For quickly creating Python3 virutal envirnoments
-alias pyenv="python3 -m venv"
+```alias pyenv="python3 -m venv"```
 
 ## Shortcut for docker
 ```alias dk=docker```
@@ -15,11 +15,15 @@ alias pyenv="python3 -m venv"
 ## For opening another console
 ```alias another="gnome-terminal & disown"```
 
-function port() {
-  sudo lsof -i:$1
-}
-## Shortcut for checking a specific open ports
+## Shortcut for checking specific open ports
 ```
 function port() {
   sudo lsof -i:$1
-}```
+}
+```
+
+`port 80`
+```
+COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+firefox 23363 leon   95u  IPv4    ...      0t0  TCP  ...
+```
