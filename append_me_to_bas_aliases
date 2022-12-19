@@ -3,6 +3,7 @@ alias dk=docker
 alias here="nohup nautilus -w . > /dev/null &"
 alias cls=clear
 alias another="gnome-terminal & disown"
+alias pyenv="python3 -m venv"
 
 function port() {
   sudo lsof -i:$1
