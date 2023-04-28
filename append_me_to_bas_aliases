@@ -8,3 +8,5 @@ alias pyenv="python3 -m venv"
 function port() {
   sudo lsof -i:$1
 }
+
+alias curltime="curl -w \"@$HOME/.curl-format.txt\" -o /dev/null -s "
