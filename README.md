@@ -27,3 +27,10 @@ function port() {
 COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
 firefox 23363 leon   95u  IPv4    ...      0t0  TCP  ...
 ```
+
+## Measure curl response time
+```curltime website.com```
+Format file is included in the repository. Add in the home directory.
+[Credits](https://stackoverflow.com/questions/18215389/how-do-i-measure-request-and-response-times-at-once-using-curl#answer-22625150)
+
+
