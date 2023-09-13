@@ -12,3 +12,6 @@ function port() {
 alias curltime="curl -w \"@$HOME/.curl-format.txt\" -o /dev/null -s "
 
 alias ncsv="nc -l -p"
+
+function silent()       { command $@ > /dev/null 2>&1 & }
+function silent_debug() { command $@ 1> /dev/null & }
