@@ -1,7 +1,7 @@
 # New installation for Ubuntu
 ## Useful packages
 ```
-sudo apt install curl
+sudo apt install curl github
 ```
 ## Unsnap, apt firefox
 ```
