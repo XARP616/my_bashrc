@@ -1,3 +1,7 @@
+# Virtualization section
+Online sources about virtual machines, virtualization, and so on.
+
+
 ## SSH into a Oracle VM Machine
 Useful when dealing with a Operating System that does not support clipboard
 
