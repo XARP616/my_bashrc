@@ -14,6 +14,7 @@ Read article:
 ### Exit siganls when TTY ends
 * [In depth look](https://unix.stackexchange.com/questions/318369/what-happens-to-background-jobs-after-exiting-the-shell)
 * [How to set such behavior](https://stackoverflow.com/questions/4298741/how-bash-handles-the-jobs-when-logout)
+* [Why some process do not terminate](https://superuser.com/questions/662431/what-exactly-determines-if-a-backgrounded-job-is-killed-when-the-shell-is-exited)
 
 Conclusions: although TTY may send SIGHUP control singal, the program may choose to ignore it. Some processes are worthier as a service.
 
