@@ -11,3 +11,10 @@ This is meant to be a collection of articles that I have found useful in relatio
 [Hard links and soft links in Linux explained](https://www.redhat.com/sysadmin/linking-linux-explained)
 * Accesed: 26 sep 2023
 * Publisher: RedHat Blog
+
+## Processes
+### SIGTERM in depth
+[SIGTERM: Linux Graceful Termination | Exit Code 143, Signal 15](https://komodor.com/learn/sigterm-signal-15-exit-code-143-linux-graceful-termination/)
+* Accessed 06 oct 2023
+* Publisher: Komodor
+* Writer: Nir Shtein
