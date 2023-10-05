@@ -17,4 +17,10 @@ This is meant to be a collection of articles that I have found useful in relatio
 [SIGTERM: Linux Graceful Termination | Exit Code 143, Signal 15](https://komodor.com/learn/sigterm-signal-15-exit-code-143-linux-graceful-termination/)
 * Accessed 06 oct 2023
 * Publisher: Komodor
-* Writer: Nir Shtein
+* Autor: Nir Shtein
+
+### Background processes and how to handle them
+[How To Use Bash's Job Control to Manage Foreground and Background Processes](https://www.digitalocean.com/community/tutorials/how-to-use-bash-s-job-control-to-manage-foreground-and-background-processes)
+* Accessed 06 oct 2023
+* Publisher: Digital Ocean
+* Author: Justin Ellingwood
