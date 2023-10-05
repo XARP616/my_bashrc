@@ -26,6 +26,9 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 [Link to forum](https://unix.stackexchange.com/questions/236084/how-do-i-create-a-service-for-a-shell-script-so-i-can-start-and-stop-it-like-a-d)
 
 ## Miscellaneous
+### What happens if I have an alias (or function) with the same name as a command
+[IBM - command Command](https://www.ibm.com/docs/en/aix/7.2?topic=c-command-command)
+
 ### Follow the end of the file
 Perfect for logging
 
