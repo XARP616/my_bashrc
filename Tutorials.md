@@ -17,6 +17,9 @@ Read article:
 
 Conclusions: although TTY may send SIGHUP control singal, the program may choose to ignore it. Some processes are worthier as a service.
 
+### Traps + signal codes
+[TutorialsPoint - Signals and Traps](https://www.tutorialspoint.com/unix/unix-signals-traps.htm)
+
 ## Managing services
 ### Add a program or script as a service
 [Link to forum](https://unix.stackexchange.com/questions/236084/how-do-i-create-a-service-for-a-shell-script-so-i-can-start-and-stop-it-like-a-d)
