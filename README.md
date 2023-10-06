@@ -52,11 +52,21 @@ The function:
 
 ## Moving around
 This is meant for navigating repeatedly around directories with ease.
+* `setloc` will set a checkpoint at the current directory
+* `goback` will take us from anywhere to the checkpoint
+* `andforth` will take us back from where we issued the `goback` command
+* `clearloc` it will clear the location
+* `showloc` will display the checkpoint (setloc) and secondary location (goback/andforth) if any
 ```bash
 cd /opt/program
 leon@XARP:/opt/program$ setloc
 cd ~
 leon@XARP:~$ goback
+leon@XARP:~$ showloc
+Checkpoint location: /tmp
+Current location: /tmp
+Coming from /home/leon
+
 leon@XARP:/opt/program$ andforth
 leon@XARP:~$ clearloc
 ```
