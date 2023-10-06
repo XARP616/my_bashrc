@@ -16,14 +16,14 @@
 ```alias another="gnome-terminal & disown"```
 
 ## Shortcut for checking specific open ports
-```
+```bash
 function port() {
   sudo lsof -i:$1
 }
 ```
 
 `port 80`
-```
+```bash
 COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
 firefox 23363 leon   95u  IPv4    ...      0t0  TCP  ...
 ```
@@ -41,7 +41,7 @@ Format file is necessary and included in the repository. Add in the home directo
 
 ## Run any command in the background, silently or showing only error outputs
 This is though for opening GUI applications without needing to have have another terminal on the background, such as **`pycharm`** or **`gedit`**.
-```
+```bash
 silent gedit file.txt test.py
 silent pycharm .
 ```
@@ -49,3 +49,14 @@ The function:
 * Starts the command in background and routes the output to `/dev/null`
 * It is not possible to autocomplete commands after the `silent` keyword, so type it later if so.
 * Supports any amount of arguments (`$@`)
+
+## Moving around
+This is meant for navigating repeatedly around directories with ease.
+```bash
+cd /opt/program
+leon@XARP:/opt/program$ setloc
+cd ~
+leon@XARP:~$ goback
+leon@XARP:/opt/program$ andforth
+leon@XARP:~$ clearloc
+```
