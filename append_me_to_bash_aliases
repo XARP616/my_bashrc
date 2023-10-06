@@ -41,6 +41,7 @@ function andforth() {
 
 function clearloc() {
   unset savedloc
+  unset secondloc
 }
 
 function showloc() {
