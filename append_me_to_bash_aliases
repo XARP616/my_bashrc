@@ -15,3 +15,30 @@ alias ncsv="nc -l -p"
 
 function silent()       { command $@ > /dev/null 2>&1 & }
 function silent_debug() { command $@ 1> /dev/null & }
+
+# Location
+function setloc() {
+  export savedloc=$(pwd)
+}
+
+function goback() {
+  if [ -n "$savedloc" ]; then
+     export secondloc=$(pwd)
+     cd $savedloc
+  else
+     echo "No location set"
+  fi
+}
+
+function andforth() {
+  if [ -n "$secondloc" ]; then
+    cd $secondloc
+    unset secondloc
+  else
+    echo "Must first use goback"
+  fi
+}
+
+function clearloc() {
+  unset savedloc
+}
