@@ -42,3 +42,16 @@ function andforth() {
 function clearloc() {
   unset savedloc
 }
+
+function showloc() {
+  if [ -n "$savedloc" ]; then
+    echo "Checkpoint location: $savedloc"
+  else
+    echo "No location set. Use setloc"
+  fi
+  echo "Current location: $(pwd)"
+  if [ -n "$secondloc" ]; then
+    echo "Coming from: $secondloc"
+  fi
+}
+
