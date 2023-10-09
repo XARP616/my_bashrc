@@ -57,7 +57,8 @@ Will display a tree with processes and subprocesses.
 ### `journalctl`
 When processes fail, the command `systemctl status` may not deliver as much information as we need. For this kind of situation, we can check the *ctl journal*.
 
-* `journalctl` will output all logs from `systemctl`
+* `journalctl` will output all logs from `systemctl`.
+* `journalctl -e` will show only the last entries of the log.
 * `jounralctl -u NAME.service` (replacing `NAME`) will allow us to filter by service (for example, `docker.service`) and debug why it failed to start/run (whatever).
 
 ## System information
