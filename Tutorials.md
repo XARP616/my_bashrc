@@ -32,11 +32,10 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 ### What happens if I have an alias (or function) with the same name as a command
 [IBM - command Command](https://www.ibm.com/docs/en/aix/7.2?topic=c-command-command)
 
-### Follow the end of the file
+### Follow the end of the file (tail)
 Perfect for logging
 
 [Read here](https://unix.stackexchange.com/questions/18760/how-does-the-tail-commands-f-parameter-work)
 
 ### Where to put binaries
-
 [Read here](https://unix.stackexchange.com/questions/36871/where-should-a-local-executable-be-placed)
