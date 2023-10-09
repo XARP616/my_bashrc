@@ -37,5 +37,9 @@ Perfect for logging
 
 [Read here](https://unix.stackexchange.com/questions/18760/how-does-the-tail-commands-f-parameter-work)
 
+
+### Create a banner and a MOTD (Message of the Day)
+[Baeldung Tutorial](https://www.baeldung.com/linux/ssh-welcome-message)
+
 ### Where to put binaries
 [Read here](https://unix.stackexchange.com/questions/36871/where-should-a-local-executable-be-placed)
