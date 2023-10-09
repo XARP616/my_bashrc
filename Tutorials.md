@@ -24,7 +24,7 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 ## Managing services
 ### Add a program or script as a service
 * Very complete tutorial: [Baeldung - Creating User’s Services With systemd](https://www.baeldung.com/linux/systemd-create-user-services)
-* Good tips for configuring the service (spanish): [Link](https://blog.carreralinux.com.ar/2020/04/como-introduzco-en-systemd-un-script-en-bash-para-que-arranque-como-demonio-al-prender-la-maquina/)
+* Good tips for configuring the service: [Link](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
 
 [Link to forum](https://unix.stackexchange.com/questions/236084/how-do-i-create-a-service-for-a-shell-script-so-i-can-start-and-stop-it-like-a-d)
 
