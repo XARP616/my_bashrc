@@ -28,6 +28,11 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 
 [Link to forum](https://unix.stackexchange.com/questions/236084/how-do-i-create-a-service-for-a-shell-script-so-i-can-start-and-stop-it-like-a-d)
 
+## Remote
+### Create a banner and a MOTD (Message of the Day)
+[Baeldung Tutorial](https://www.baeldung.com/linux/ssh-welcome-message)
+
+
 ## Miscellaneous
 ### What happens if I have an alias (or function) with the same name as a command
 [IBM - command Command](https://www.ibm.com/docs/en/aix/7.2?topic=c-command-command)
@@ -37,9 +42,8 @@ Perfect for logging
 
 [Read here](https://unix.stackexchange.com/questions/18760/how-does-the-tail-commands-f-parameter-work)
 
-
-### Create a banner and a MOTD (Message of the Day)
-[Baeldung Tutorial](https://www.baeldung.com/linux/ssh-welcome-message)
-
 ### Where to put binaries
 [Read here](https://unix.stackexchange.com/questions/36871/where-should-a-local-executable-be-placed)
+
+### Adjust nano tabspace
+[Read here](https://stackoverflow.com/questions/11173769/how-to-make-the-tab-character-4-spaces-instead-of-8-spaces-in-nano)
