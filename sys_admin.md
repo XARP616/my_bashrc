@@ -81,3 +81,23 @@ Shows distribution-specific information.
 
 ### `dmesg`
 To examine or control the kernel ring buffer. Useful to get the latest system logs.
+
+
+## User information
+
+### User activity
+* `last` latest logins
+* `lastlog` shows the latest login for every user
+* `who` shows what users have an open session
+* `w` shows who is connected and WHAT is doing
+
+### User logins
+* `faillog -u %USER` shows failed logins
+* `passwd -l user` locks the (password of) a specific account
+* `passwod -u user` to revert
+
+
+## Remote access
+* Fail2ban utility (to mitigate automated scripts trying to brute force logins)
+* `sshfs` (ssh filesystem) to mount a remote filesystem
+
