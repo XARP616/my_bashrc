@@ -4,10 +4,20 @@ alias here="nohup nautilus -w . > /dev/null &"
 alias cls=clear
 alias another="gnome-terminal & disown"
 alias pyenv="python3 -m venv"
+alias calc="bc <<<"
+
+function bashreload() {
+  source ~/.bashrc
+ 
+  if [ $? -eq 0 ]; then
+    echo "bashrc reloaded"
+  fi
+}
 
 function port() {
   sudo lsof -i:$1
 }
+alias ports="netstat -tulpen"
 
 alias curltime="curl -w \"@$HOME/.curl-format.txt\" -o /dev/null -s "
 
