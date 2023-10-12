@@ -28,6 +28,11 @@ COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
 firefox 23363 leon   95u  IPv4    ...      0t0  TCP  ...
 ```
 
+## Shortcut for displaying all open ports
+```bash
+leon@xarp:~$ ports
+```
+
 ## Measure curl response time
 ```curltime website.com```
 
@@ -70,3 +75,14 @@ Coming from /home/leon
 leon@XARP:/opt/program$ andforth
 leon@XARP:~$ clearloc
 ```
+
+## Calculator
+This is an alias for the command `bc` for simple and quick use. 
+Do NOT add spaces.
+```bash
+leon@xarp:~$ calc 2+2
+4
+```
+
+## Bash reload
+Simply reloads `.bashrc` file.
