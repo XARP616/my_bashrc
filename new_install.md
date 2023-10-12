@@ -1,7 +1,7 @@
 # New installation for Ubuntu
 ## Useful packages
-```
-sudo apt install curl git progress
+```bash
+sudo apt install curl git progress bpytop
 ```
 ### Progress of processes
 `progress -w`
