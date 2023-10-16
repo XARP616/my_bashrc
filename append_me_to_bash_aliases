@@ -14,6 +14,50 @@ function bashreload() {
   fi
 }
 
+function yes_or_no() {
+
+  if [ $# -ne 1 ]; then
+    echo "This function requires a question as a single argument"
+    echo "Return: { 1 yes | 0 no | -1 not valid }"
+    return -1
+  fi
+
+  question=$1
+
+  printf "$1 [y/N] "
+  read res
+
+  if [ "$res" = "y" ]; then
+    return 1
+  elif [ "$res" = "n" ]; then
+    return 0
+  else
+    return -1
+  fi
+}
+
+function empty() {
+
+  if [ $# -eq 0 ]; then
+    echo "No filename specified"
+    return -1
+  elif [ $# -gt 1 ]; then
+    yes_or_no "This operation will affect more than one file. Proceed?"
+  elif [ $# -eq 1 ]; then
+    yes_or_no "Are you sure you want to clear this file contents?"
+  fi
+
+  if [ $? -eq 1 ]; then
+    for filetoremove in $@
+    do
+      echo "" > $filetoremove
+    done
+  else
+    echo "Cancelled."
+  fi
+
+}
+
 function port() {
   sudo lsof -i:$1
 }
