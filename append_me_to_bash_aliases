@@ -50,7 +50,11 @@ function empty() {
   if [ $? -eq 1 ]; then
     for filetoremove in $@
     do
-      echo "" > $filetoremove
+      if [ -e $filetoremove ]; then
+        echo "" > $filetoremove
+      else
+        echo "File '$filetoremove' does not exist"
+      fi
     done
   else
     echo "Cancelled."
