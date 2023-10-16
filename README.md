@@ -86,3 +86,35 @@ leon@xarp:~$ calc 2+2
 
 ## Bash reload
 Simply reloads `.bashrc` file.
+
+## Empty a file
+Simply wipes the contents of a file. Asks for confirmation. ALso checks for file existence.
+
+```bash
+leon@xarp:/tmp$ empty
+No filename specified
+leon@xarp:/tmp$ empty a
+Are you sure you want to clear this file contents? [y/N] y
+leon@xarp:/tmp$ empty a
+Are you sure you want to clear this file contents? [y/N] n
+Cancelled.
+leon@xarp:/tmp$ empty a b c
+This operation will affect more than one file. Proceed? [y/N] y
+leon@xarp:/tmp$ empty a
+Are you sure you want to clear this file contents? [y/N] y
+File 'a' does not exist
+```
+
+## Yes or no?
+A function for modularizing decisions in scripts.
+
+```bash
+yes_or_no "Are you sure you want to clear this file contents?"
+if [ $? -eq 1 ]; then
+  echo "yes"
+elif [ $? -eq 0]; then
+  echo "no"
+else
+  echo "Not valid input"
+fi
+```
