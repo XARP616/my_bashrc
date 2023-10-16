@@ -91,15 +91,22 @@ Simply reloads `.bashrc` file.
 Simply wipes the contents of a file. Asks for confirmation. ALso checks for file existence.
 
 ```bash
-leon@xarp:/tmp$ empty
-No filename specified
+leon@xarp:/tmp$ cat a
+aaaaaaaa
 leon@xarp:/tmp$ empty a
-Are you sure you want to clear this file contents? [y/N] y
+...
+leon@xarp:/tmp$ cat a
+
 leon@xarp:/tmp$ empty a
 Are you sure you want to clear this file contents? [y/N] n
 Cancelled.
 leon@xarp:/tmp$ empty a b c
 This operation will affect more than one file. Proceed? [y/N] y
+
+leon@xarp:/tmp$ empty
+No filename specified
+
+leon@xarp:/tmp$ rm a
 leon@xarp:/tmp$ empty a
 Are you sure you want to clear this file contents? [y/N] y
 File 'a' does not exist
