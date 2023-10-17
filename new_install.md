@@ -2,6 +2,9 @@
 ## Useful packages
 ```bash
 sudo apt install curl git progress bpytop screen
+
+# OhMyZsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 ### Progress of processes
 `progress -w`
