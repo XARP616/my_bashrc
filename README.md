@@ -125,3 +125,11 @@ else
   echo "Not valid input"
 fi
 ```
+
+## Set title
+Sets the title of a shell terminal. Does not work for zsh
+[Credits](https://unix.stackexchange.com/questions/177572/how-to-rename-terminal-tab-title-in-gnome-terminal)
+
+```bash
+set-title my new tab title
+```
