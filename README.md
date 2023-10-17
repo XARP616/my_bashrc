@@ -131,5 +131,9 @@ Sets the title of a shell terminal. Does not work for zsh
 [Credits](https://unix.stackexchange.com/questions/177572/how-to-rename-terminal-tab-title-in-gnome-terminal)
 
 ```bash
+# Spaces allowed, sets the title of the bash terminal
 set-title my new tab title
+
+# Returns the title to the original
+set-title
 ```
