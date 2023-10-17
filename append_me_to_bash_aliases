@@ -6,6 +6,14 @@ alias another="gnome-terminal & disown"
 alias pyenv="python3 -m venv"
 alias calc="bc <<<"
 
+function set-title() {
+  if [[ -z "$ORIG" ]]; then
+    ORIG=$PS1
+  fi
+  TITLE="\[\e]2;$*\a\]"
+  PS1=${ORIG}${TITLE}
+}
+
 function bashreload() {
   source ~/.bashrc
  
