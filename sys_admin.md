@@ -96,7 +96,14 @@ To examine or control the kernel ring buffer. Useful to get the latest system lo
 * `passwd -l user` locks the (password of) a specific account
 * `passwod -u user` to revert
 
+## Remote execution
 
+### Nagios NRPE
+* [Documentation (explanation + installation intructions)](https://assets.nagios.com/downloads/nagioscore/docs/nrpe/NRPE.pdf)
+* [Nagios Plugins archive](http://nagios-plugins.org/download/)
+* [NRPE (check nrpe) archive](https://github.com/NagiosEnterprises/nrpe/releases/tag/nrpe-4.1.0)
+* [Tutorial instalación y configuración](https://www.busindre.com/instalar_nrpe_para_monitorizar_con_nagios)
+* [Otro caso con NSClient++](https://www.bujarra.com/nagios-monitorizando-nrpe/)
 ## Remote access
 * Fail2ban utility (to mitigate automated scripts trying to brute force logins)
 * `sshfs` (ssh filesystem) to mount a remote filesystem
