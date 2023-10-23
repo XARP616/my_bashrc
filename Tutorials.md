@@ -47,3 +47,9 @@ Perfect for logging
 
 ### Adjust nano tabspace
 [Read here](https://stackoverflow.com/questions/11173769/how-to-make-the-tab-character-4-spaces-instead-of-8-spaces-in-nano)
+
+## Networking
+### Configuring a TCP Wrapper (xinetd)
+[How to configure xinetd](https://www.ochobitshacenunbyte.com/2017/01/18/servicios-de-internet-en-linux-con-xinetd/)
+[RedHat - TCP Wrappers and xinetd](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/security_guide/sect-security_guide-tcp_wrappers_and_xinetd)
+[RedHat ES - Archivos de configuración de envolturas TCP](https://access.redhat.com/documentation/es-es/red_hat_enterprise_linux/6/html/security_guide/sect-security_guide-tcp_wrappers_and_xinetd-tcp_wrappers_configuration_files)
