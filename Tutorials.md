@@ -44,6 +44,14 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 ### Logging in IPTABLES
 [Link to forum](https://stackoverflow.com/questions/21771684/iptables-log-and-drop-in-one-rule#answer-29544353)
 
+## Docker
+### Why there is no `systemctl` in Docker
+[Docker forums](https://forums.docker.com/t/systemctl-status-is-not-working-in-my-docker-container/9075)
+
+### Services in Docker
+Services can be started manually through the systemd. In Docker we should use the `service` command.
+[Read more](https://github.com/MicrosoftDocs/WSL/issues/457#issuecomment-574859373)
+
 ## Miscellaneous
 ### What happens if I have an alias (or function) with the same name as a command
 [IBM - command Command](https://www.ibm.com/docs/en/aix/7.2?topic=c-command-command)
