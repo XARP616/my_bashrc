@@ -5,6 +5,9 @@ For handy things in LaTeX
 ### Add border to an image
 [Read here](https://tex.stackexchange.com/questions/20640/how-to-add-border-for-an-image)
 
+### Crop an image
+[Read here](https://tex.stackexchange.com/questions/57418/crop-an-inserted-image)
+
 ## Miscellaneous
 ### Opening and closing quotation marks
 [Read here](https://tex.stackexchange.com/questions/52351/quote-marks-are-backwards-using-texmaker-pdflatex)
