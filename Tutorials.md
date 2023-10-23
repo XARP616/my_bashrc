@@ -28,6 +28,10 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 
 [Link to forum](https://unix.stackexchange.com/questions/236084/how-do-i-create-a-service-for-a-shell-script-so-i-can-start-and-stop-it-like-a-d)
 
+## Permissions
+### Directory permissions explanation
+[Read here](https://unix.stackexchange.com/questions/21251/execute-vs-read-bit-how-do-directory-permissions-in-linux-work#answer-21263)
+
 ## Remote
 ### Create a banner and a MOTD (Message of the Day)
 [Baeldung Tutorial](https://www.baeldung.com/linux/ssh-welcome-message)
