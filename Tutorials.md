@@ -52,6 +52,9 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 Services can be started manually through the systemd. In Docker we should use the `service` command.
 [Read more](https://github.com/MicrosoftDocs/WSL/issues/457#issuecomment-574859373)
 
+#### Start Apache (alt way)
+`sudo /etc/init.d/apache2 start`
+
 ## Miscellaneous
 ### What happens if I have an alias (or function) with the same name as a command
 [IBM - command Command](https://www.ibm.com/docs/en/aix/7.2?topic=c-command-command)
