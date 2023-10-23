@@ -32,6 +32,9 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 ### Directory permissions explanation
 [Read here](https://unix.stackexchange.com/questions/21251/execute-vs-read-bit-how-do-directory-permissions-in-linux-work#answer-21263)
 
+### Symbolic Link Permissions
+[Baeldung - How Do Permissions Apply to Symbolic Links?](https://www.baeldung.com/linux/symlinks-permissions)
+
 ## Remote
 ### Create a banner and a MOTD (Message of the Day)
 [Baeldung Tutorial](https://www.baeldung.com/linux/ssh-welcome-message)
