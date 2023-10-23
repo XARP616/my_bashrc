@@ -24,3 +24,11 @@ This is meant to be a collection of articles that I have found useful in relatio
 * Accessed 06 oct 2023
 * Publisher: Digital Ocean
 * Author: Justin Ellingwood
+
+## Network
+### About TCP Wrappers
+[TCP Wrappers: qué son y cómo se utilizan en Linux](https://juncotic.com/tcp-wrappers-se-utilizan-linux/)
+* Language: spanish
+* Accessed: 23 oct 2023
+* Published: Junco TIC
+* Author: Diego Córdoba
