@@ -23,4 +23,5 @@ Different testing techniques with Apache JMeter.
 
 ### Bash protection against injection
 Interestingly, it does not use a blocklist, instead, it cleverly greps out the path.
+
 [Read here](https://stackoverflow.com/questions/56687976/what-are-the-possible-list-of-linux-bash-shell-injection-commands#answer-56688189)
