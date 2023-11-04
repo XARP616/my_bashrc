@@ -35,7 +35,7 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 ### Symbolic Link Permissions
 [Baeldung - How Do Permissions Apply to Symbolic Links?](https://www.baeldung.com/linux/symlinks-permissions)
 
-## Remote
+## SSH
 ### Create a banner and a MOTD (Message of the Day)
 [Baeldung Tutorial](https://www.baeldung.com/linux/ssh-welcome-message)
 
@@ -51,6 +51,9 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 ### Logging in IPTABLES
 [Link to forum](https://stackoverflow.com/questions/21771684/iptables-log-and-drop-in-one-rule#answer-29544353)
 
+### Local reverse proxy for resolving domains with ports
+[Baelding - Mapping Hostnames with Ports in `/etc/hosts`](https://www.baeldung.com/linux/mapping-hostnames-ports)
+
 ## Docker
 ### Why there is no `systemctl` in Docker
 [Docker forums](https://forums.docker.com/t/systemctl-status-is-not-working-in-my-docker-container/9075)
@@ -59,7 +62,7 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 Services can be started manually through the systemd. In Docker we should use the `service` command.
 [Read more](https://github.com/MicrosoftDocs/WSL/issues/457#issuecomment-574859373)
 
-#### Start Apache (alt way)
+#### Start Apache (the other way)
 `sudo /etc/init.d/apache2 start`
 
 ## Python
@@ -81,4 +84,3 @@ Perfect for logging
 
 ### Adjust nano tabspace
 [Read here](https://stackoverflow.com/questions/11173769/how-to-make-the-tab-character-4-spaces-instead-of-8-spaces-in-nano)
-
