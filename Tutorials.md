@@ -62,6 +62,11 @@ Services can be started manually through the systemd. In Docker we should use th
 #### Start Apache (alt way)
 `sudo /etc/init.d/apache2 start`
 
+## Python
+### How to handle secrets
+Useful when working with secrets such as passwords and tokens. A must not to have passwords hardcoded (even in they are not plaintext, code can be reversed)
+[GitGuardian - How to Handle Secrets in Python](https://blog.gitguardian.com/how-to-handle-secrets-in-python/)
+
 ## Miscellaneous
 ### What happens if I have an alias (or function) with the same name as a command
 [IBM - command Command](https://www.ibm.com/docs/en/aix/7.2?topic=c-command-command)
