@@ -35,6 +35,13 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 ### Symbolic Link Permissions
 [Baeldung - How Do Permissions Apply to Symbolic Links?](https://www.baeldung.com/linux/symlinks-permissions)
 
+## Debian
+### Create custom `.deb` packages
+[MakeUseOf - How to Create DEB Packages for Debian/Ubuntu](https://www.makeuseof.com/create-deb-packages-debian-ubuntu/)
+
+### Fix apt "unsandboxed" issue
+[Read here](https://askubuntu.com/questions/908800/what-does-this-apt-error-message-download-is-performed-unsandboxed-as-root)
+
 ## SSH
 ### Create a banner and a MOTD (Message of the Day)
 [Baeldung Tutorial](https://www.baeldung.com/linux/ssh-welcome-message)
@@ -64,6 +71,10 @@ Services can be started manually through the systemd. In Docker we should use th
 
 #### Start Apache (the other way)
 `sudo /etc/init.d/apache2 start`
+
+## Vagrant
+### Fix apt manual install "unsanboxed" error 
+[P](https://github.com/fgrehm/vagrant-cachier/issues/175#issuecomment-292630871)
 
 ## Python
 ### How to handle secrets
