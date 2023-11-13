@@ -33,3 +33,7 @@ For handy things in LaTeX
 
 ### Equation generator
 [Visit here](https://latex.codecogs.com/eqneditor/editor.php)
+
+### XOR symbol in math
+$\xor$
+[Read here](https://tex.stackexchange.com/questions/3936/logic-operators-in-latex-xor#answer-3937)
