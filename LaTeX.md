@@ -15,6 +15,21 @@ For handy things in LaTeX
 
 ## Text format
 
+### Whole paragraph identation
+```latex
+\vspace{0.6cm}
+\hfill\begin{minipage}{\dimexpr\textwidth-2cm}
+
+  Hello!
+
+\xdef\tpd{1cm}
+\end{minipage}
+\vspace{0.6cm}
+```
+
+
+[Read here](https://tex.stackexchange.com/questions/35933/indenting-a-whole-paragraph)
+
 ### Text striketrough (crossed)
 [Read here](https://tex.stackexchange.com/questions/23711/strikethrough-text)
 
