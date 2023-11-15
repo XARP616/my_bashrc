@@ -27,8 +27,35 @@ For handy things in LaTeX
 \vspace{0.6cm}
 ```
 
-
 [Read here](https://tex.stackexchange.com/questions/35933/indenting-a-whole-paragraph)
+
+
+## Math
+
+### Create conditional equations
+
+```
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+\[
+    f(x)= 
+\begin{cases}
+    \frac{x^2-x}{x},& \text{if } x\geq 1\\
+    0,              & \text{otherwise}
+\end{cases}
+\]
+\end{document}
+```
+[Read here](https://tex.stackexchange.com/questions/47170/how-to-write-conditional-equations-with-one-sided-curly-brackets)
+
+### Equation generator
+[Visit here](https://latex.codecogs.com/eqneditor/editor.php)
+
+### XOR symbol in math
+`$\xor$`
+[Read here](https://tex.stackexchange.com/questions/3936/logic-operators-in-latex-xor#answer-3937)
 
 ### Text striketrough (crossed)
 [Read here](https://tex.stackexchange.com/questions/23711/strikethrough-text)
@@ -46,9 +73,3 @@ For handy things in LaTeX
 ### Different column width
 [Read here](https://tex.stackexchange.com/questions/89721/different-column-widths-using-multicol)
 
-### Equation generator
-[Visit here](https://latex.codecogs.com/eqneditor/editor.php)
-
-### XOR symbol in math
-$\xor$
-[Read here](https://tex.stackexchange.com/questions/3936/logic-operators-in-latex-xor#answer-3937)
