@@ -82,6 +82,11 @@ alias ncsv="nc -l -p"
 function silent()       { command $@ > /dev/null 2>&1 & }
 function silent_debug() { command $@ 1> /dev/null & }
 
+function swap() {
+    local TMPFILE=tmp.$$
+    mv "$1" $TMPFILE && mv "$2" "$1" && mv $TMPFILE "$2"
+}
+
 # Location
 function setloc() {
   export savedloc=$(pwd)
