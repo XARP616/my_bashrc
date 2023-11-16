@@ -47,6 +47,10 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 [Baeldung Tutorial](https://www.baeldung.com/linux/ssh-welcome-message)
 
 ## Networking
+
+### Configure a VPN server
+[Digital Ocean - How To Set Up and Configure an OpenVPN Server](https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-an-openvpn-server-on-ubuntu-22-04)
+
 ### Configuring a TCP Wrapper (xinetd)
 [How to configure xinetd](https://www.ochobitshacenunbyte.com/2017/01/18/servicios-de-internet-en-linux-con-xinetd/)
 [RedHat - TCP Wrappers and xinetd](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/security_guide/sect-security_guide-tcp_wrappers_and_xinetd)
