@@ -137,3 +137,13 @@ set-title my new tab title
 # Returns the title to the original
 set-title
 ```
+
+## Wait countdown message
+Displays a wait custom message. It will wait as many seconds as specified in the first argument and display a message accoding with the second argument.
+
+The function counts down to zero from the amount of seconds specified. Instead of generating a new line, the command will update its line.
+
+```bash
+wait_msg 5 "Skipping this part"
+Skipping this part [5 s]
+```
