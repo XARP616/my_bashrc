@@ -6,6 +6,7 @@ alias another="gnome-terminal & disown"
 alias pyenv="python3 -m venv"
 alias calc="bc <<<"
 
+# Bash only (not working with zsh)
 function set-title() {
   if [[ -z "$ORIG" ]]; then
     ORIG=$PS1
@@ -20,6 +21,18 @@ function bashreload() {
   if [ $? -eq 0 ]; then
     echo "bashrc reloaded"
   fi
+}
+
+function wait_msg {
+  seconds=$(( $1 - 1 ))
+  message=$2
+
+  for (( i=$seconds; i>=0; i-- ))
+  do
+    echo -en "\r\033[2K$message [$i s]"
+    sleep 1
+  done
+  echo ""
 }
 
 function yes_or_no() {
