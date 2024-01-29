@@ -27,7 +27,9 @@ Audiences
 
 
 [Repo](https://github.com/future-architect/vuls)
+
 [Scan](https://vuls.io/docs/en/usage-scan.html)
+
 * [Vulsctl](https://vuls.io/docs/en/install-with-vulsctl.html)
 * [Manual install](https://vuls.io/docs/en/install-manually.html)
 * [Docker install](https://vuls.io/docs/en/install-with-docker.html)
