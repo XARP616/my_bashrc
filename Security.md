@@ -30,6 +30,9 @@ Audiences
 
 [Scan](https://vuls.io/docs/en/usage-scan.html)
 
+* [Host install](https://vuls.io/docs/en/install-with-vulsctl-host.html)
+  Download scripts from linked repo!!
+  
 * [Vulsctl](https://vuls.io/docs/en/install-with-vulsctl.html)
 * [Manual install](https://vuls.io/docs/en/install-manually.html)
 * [Docker install](https://vuls.io/docs/en/install-with-docker.html)
