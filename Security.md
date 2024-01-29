@@ -25,3 +25,13 @@ Different testing techniques with Apache JMeter.
 Interestingly, it does not use a blocklist, instead, it cleverly greps out the path.
 
 [Read here](https://stackoverflow.com/questions/56687976/what-are-the-possible-list-of-linux-bash-shell-injection-commands#answer-56688189)
+[Sanitize user input](https://linuxconcept.com/write-bash-script-for-sanitizing-user-input-and-for-repeatable-results/#better_inputsh)
+[User input validation](https://savvyadmin.com/bash-user-input-validation/)
+
+### Shell script security
+[Apple's Guide to shell script security](https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/ShellScriptSecurity/ShellScriptSecurity.html#//apple_ref/doc/uid/TP40004268-CH8-SW1)
+
+### Advanced shell scripting guide
+[Read here](https://tldp.org/LDP/abs/html/)
+
+
