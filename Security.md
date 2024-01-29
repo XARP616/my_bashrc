@@ -1,5 +1,27 @@
 # Security
 
+## Auditing
+
+### Automatic Linux auditing (blue team)
+```bash
+sudo apt install -y lynis
+```
+* Automated security auditing
+* Compliance testing (e.g. ISO27001, PCI-DSS, HIPAA)
+* Vulnerability detection
+* Configuration and asset management
+* Software patch management
+* System hardening
+* Penetration testing (privilege escalation)
+* Intrusion detection
+
+Audiences
+* System administrators
+* Auditors
+* Security professionals
+
+[Repo](https://github.com/CISOfy/lynis)
+
 ## Networking
 
 ### IP Spoofing w/ `iptables`
