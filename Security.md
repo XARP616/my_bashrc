@@ -5,6 +5,7 @@
 ### Automatic Linux auditing (blue team)
 ```bash
 sudo apt install -y lynis
+sudo lynis audit system
 ```
 * Automated security auditing
 * Compliance testing (e.g. ISO27001, PCI-DSS, HIPAA)
@@ -21,6 +22,16 @@ Audiences
 * Security professionals
 
 [Repo](https://github.com/CISOfy/lynis)
+
+### Vuls: Automatic vulnerability lookup
+
+
+[Repo](https://github.com/future-architect/vuls)
+[Scan](https://vuls.io/docs/en/usage-scan.html)
+* [Vulsctl](https://vuls.io/docs/en/install-with-vulsctl.html)
+* [Manual install](https://vuls.io/docs/en/install-manually.html)
+* [Docker install](https://vuls.io/docs/en/install-with-docker.html)
+* Also install with Anisble and other methods.
 
 ## Networking
 
@@ -56,4 +67,17 @@ Interestingly, it does not use a blocklist, instead, it cleverly greps out the p
 ### Advanced shell scripting guide
 [Read here](https://tldp.org/LDP/abs/html/)
 
+## Logging
 
+Automatic scan for logs:
+```bash
+sudo apt install logcheck
+sudo -u logcheck logcheck -o -t
+```
+
+## System 
+
+### Check dependencies and packages (good practice)
+```bash
+sudo apt-cache show [PACKAGE_NAME]
+```
