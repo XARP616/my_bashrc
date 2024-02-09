@@ -5,6 +5,8 @@ alias cls=clear
 alias another="gnome-terminal & disown"
 alias pyenv="python3 -m venv"
 alias calc="bc <<<"
+alias ltr="ls -lhtr"
+alias lt="ls -lht"
 
 # Bash only (not working with zsh)
 function set-title() {
