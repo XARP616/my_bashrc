@@ -150,7 +150,13 @@ Skipping this part [5 s]
 
 ## List directory time sorted
 An alias for `ls` which displays the contents sorted by most recent modification and the reversed equivalent.
-```
-alias ltr="ls -lhtr"
-alias lt="ls -lht"
+```bash
+$ touch a
+$ touch b
+$ ltr
+ a
+ b
+$ lt
+ b
+ a
 ```
