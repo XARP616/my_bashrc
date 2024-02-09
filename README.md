@@ -147,3 +147,10 @@ The function counts down to zero from the amount of seconds specified. Instead o
 wait_msg 5 "Skipping this part"
 Skipping this part [5 s]
 ```
+
+## List directory time sorted
+An alias for `ls` which displays the contents sorted by most recent modification and the reversed equivalent.
+```
+alias ltr="ls -lhtr"
+alias lt="ls -lht"
+```
