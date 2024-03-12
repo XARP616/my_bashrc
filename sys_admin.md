@@ -82,6 +82,14 @@ Shows distribution-specific information.
 ### `dmesg`
 To examine or control the kernel ring buffer. Useful to get the latest system logs.
 
+## System resources
+
+### `ulimit`
+Shows the system limits for the different resources (memory, disk, cpu...)
+* `ulimit -a` shows all system limits.
+* `ulimit -<flag> <value>` to edit a value (the flag is shown with `-a`)
+
+* [Mongodb docs](https://www.mongodb.com/docs/manual/reference/ulimit/)
 
 ## User information
 
