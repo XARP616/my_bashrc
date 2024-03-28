@@ -7,6 +7,7 @@ alias pyenv="python3 -m venv"
 alias calc="bc <<<"
 alias ltr="ls -lhtr"
 alias lt="ls -lht"
+alias please="sudo"
 
 # Bash only (not working with zsh)
 function set-title() {
