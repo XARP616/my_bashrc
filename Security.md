@@ -86,3 +86,27 @@ sudo -u logcheck logcheck -o -t
 ```bash
 sudo apt-cache show [PACKAGE_NAME]
 ```
+
+# Audit
+
+## System audit
+
+### Msfvenom
+Msfvenom can be used to export Metasploits' payloads.
+
+* In the following cheatsheet, we can find binaries and payload examples for meterpreter and other reverse shells.
+  
+  [MSFVenom Reverse shell payloads](https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/)
+
+* In this other article, we can find some parameters to adjust the formats and platforms for the exported payloads
+  
+  [MSFVenom cheatsheet: Windows Exploitation](https://www.hackingarticles.in/msfvenom-cheatsheet-windows-exploitation)
+
+* This other article analyzes metasploit shellcodes at low level
+
+  [A look at Metasploit's Shellcodes](https://hidocohen.medium.com/a-look-at-metasploits-shellcodes-4c21de5e4580)
+
+### Shellcode to assembly / binary to ASM
+[How to convert shellcode to readable assembly code/instructions?](https://stackoverflow.com/questions/65471634/how-to-convert-shellcode-to-readable-assembly-code-instructions)
+
+
