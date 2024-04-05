@@ -18,12 +18,6 @@ Read article:
 
 Conclusions: although TTY may send SIGHUP control singal, the program may choose to ignore it. Some processes are worthier as a service.
 
-## Bash scripting
-### Argumentos de programa con getops
-Ejemplo de script con getops
-
-[Curl test stress script raw](https://gist.githubusercontent.com/cirocosta/de576304f1432fad5b3a/raw/476eda87ba9666756c6f4010ed43c2aa355c76cf/stress-test.sh)
-
 ### Traps + signal codes
 [TutorialsPoint - Signals and Traps](https://www.tutorialspoint.com/unix/unix-signals-traps.htm)
 
@@ -105,4 +99,30 @@ Perfect for logging
 
 ### Adjust nano tabspace
 [Read here](https://stackoverflow.com/questions/11173769/how-to-make-the-tab-character-4-spaces-instead-of-8-spaces-in-nano)
+
+### Run commands through SSH
+Multiline commands
+```bash
+ssh -T $_remote <<'EOL'
+	now="$(date)"
+	name="$HOSTNAME"
+	up="$(uptime)"
+	echo "Server name is $name"
+	echo "Server date and time is $now"
+	echo "Server uptime: $up"
+	echo "Bye"
+EOL
+```
+[How to run commands in SSH](https://www.cyberciti.biz/faq/unix-linux-execute-command-using-ssh/)
+
+### Argumentos de programa con getops
+Ejemplo de script con getops
+
+[Curl test stress script raw](https://gist.githubusercontent.com/cirocosta/de576304f1432fad5b3a/raw/476eda87ba9666756c6f4010ed43c2aa355c76cf/stress-test.sh)
+
+### Execute function with timeout
+[Shell function with timeout](https://stackoverflow.com/questions/9954794/execute-a-shell-function-with-timeout)
+
+### Linux show certificate information
+[How to Check a Certificate with OpenSSL Commands in Linux?](https://www.ssldragon.com/blog/check-certificate-openssl-linux/#View-the-Full-Certificate-Details)
 
