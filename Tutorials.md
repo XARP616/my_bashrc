@@ -126,3 +126,6 @@ Ejemplo de script con getops
 ### Linux show certificate information
 [How to Check a Certificate with OpenSSL Commands in Linux?](https://www.ssldragon.com/blog/check-certificate-openssl-linux/#View-the-Full-Certificate-Details)
 
+### ASCII to numbers in shell
+[Bash script to get ASCII values for alphabet](https://unix.stackexchange.com/questions/92447/bash-script-to-get-ascii-values-for-alphabet)
+
