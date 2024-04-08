@@ -28,12 +28,39 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 
 [Link to forum](https://unix.stackexchange.com/questions/236084/how-do-i-create-a-service-for-a-shell-script-so-i-can-start-and-stop-it-like-a-d)
 
+
+
+
+
 ## Permissions
 ### Directory permissions explanation
 [Read here](https://unix.stackexchange.com/questions/21251/execute-vs-read-bit-how-do-directory-permissions-in-linux-work#answer-21263)
 
 ### Symbolic Link Permissions
 [Baeldung - How Do Permissions Apply to Symbolic Links?](https://www.baeldung.com/linux/symlinks-permissions)
+
+
+
+
+## Text processing in bash
+
+* [Text processing in bash - Coreutils in Linux series](https://learnbyexample.github.io/cli_text_processing_coreutils/cat-tac.html)
+
+### Argumentos de programa con getops
+Ejemplo de script con getops
+
+[Curl test stress script raw](https://gist.githubusercontent.com/cirocosta/de576304f1432fad5b3a/raw/476eda87ba9666756c6f4010ed43c2aa355c76cf/stress-test.sh)
+
+
+### Get the name of the file or the directory
+[Text processing in bash - basedir and dirnme](https://learnbyexample.github.io/cli_text_processing_coreutils/basename-dirname.html)
+
+### ASCII to numbers in shell
+[Bash script to get ASCII values for alphabet](https://unix.stackexchange.com/questions/92447/bash-script-to-get-ascii-values-for-alphabet)
+
+### Multiline in bash: controlling interactive programs, multiline commands, multiline input
+[Here Documents](https://tldp.org/LDP/abs/html/here-docs.html)
+
 
 ## Debian
 ### Create custom `.deb` packages
@@ -45,6 +72,8 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 ## SSH
 ### Create a banner and a MOTD (Message of the Day)
 [Baeldung Tutorial](https://www.baeldung.com/linux/ssh-welcome-message)
+
+
 
 ## Networking
 
@@ -65,6 +94,7 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 ### Local reverse proxy for resolving domains with ports
 [Baelding - Mapping Hostnames with Ports in `/etc/hosts`](https://www.baeldung.com/linux/mapping-hostnames-ports)
 
+
 ## Docker
 ### Why there is no `systemctl` in Docker
 [Docker forums](https://forums.docker.com/t/systemctl-status-is-not-working-in-my-docker-container/9075)
@@ -76,14 +106,23 @@ Services can be started manually through the systemd. In Docker we should use th
 #### Start Apache (the other way)
 `sudo /etc/init.d/apache2 start`
 
+
+
 ## Vagrant
 ### Fix apt manual install "unsanboxed" error 
 [P](https://github.com/fgrehm/vagrant-cachier/issues/175#issuecomment-292630871)
+
+
 
 ## Python
 ### How to handle secrets
 Useful when working with secrets such as passwords and tokens. A must not to have passwords hardcoded (even in they are not plaintext, code can be reversed)
 [GitGuardian - How to Handle Secrets in Python](https://blog.gitguardian.com/how-to-handle-secrets-in-python/)
+
+
+
+
+
 
 ## Miscellaneous
 ### What happens if I have an alias (or function) with the same name as a command
@@ -115,17 +154,13 @@ EOL
 ```
 [How to run commands in SSH](https://www.cyberciti.biz/faq/unix-linux-execute-command-using-ssh/)
 
-### Argumentos de programa con getops
-Ejemplo de script con getops
-
-[Curl test stress script raw](https://gist.githubusercontent.com/cirocosta/de576304f1432fad5b3a/raw/476eda87ba9666756c6f4010ed43c2aa355c76cf/stress-test.sh)
-
 ### Execute function with timeout
 [Shell function with timeout](https://stackoverflow.com/questions/9954794/execute-a-shell-function-with-timeout)
 
 ### Linux show certificate information
 [How to Check a Certificate with OpenSSL Commands in Linux?](https://www.ssldragon.com/blog/check-certificate-openssl-linux/#View-the-Full-Certificate-Details)
 
-### ASCII to numbers in shell
-[Bash script to get ASCII values for alphabet](https://unix.stackexchange.com/questions/92447/bash-script-to-get-ascii-values-for-alphabet)
+### Handling signals in bash
+[Handling signals in bash](https://www.baeldung.com/linux/bash-signal-handling)
+
 
