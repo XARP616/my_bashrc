@@ -163,4 +163,7 @@ EOL
 ### Handling signals in bash
 [Handling signals in bash](https://www.baeldung.com/linux/bash-signal-handling)
 
+### Sort disk usage `du` by size
+[Sort du by size](https://serverfault.com/questions/62411/how-can-i-sort-du-h-output-by-size)
+
 
