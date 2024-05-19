@@ -44,4 +44,9 @@ This is meant to be a collection of articles that I have found useful in relatio
 [What is SELinux?](https://www.redhat.com/en/topics/linux/what-is-selinux)
 * Accessed: 19 may 2024
 * Publisher: Red Hat
-* Author: 
+
+## System Resources
+[Explaining Load Average in Linux](https://www.atatus.com/blog/load-average-in-linux/)
+* Accessed: 19 may 2024
+* Publisher: Atatus
+* Author: Aiswarya S.
