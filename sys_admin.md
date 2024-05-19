@@ -104,6 +104,14 @@ Shows the system limits for the different resources (memory, disk, cpu...)
 * `passwd -l user` locks the (password of) a specific account
 * `passwod -u user` to revert
 
+## Filesystem
+
+### Watch over changes in the filesystem
+```bash
+auditctl -w /etc/passwd -p war -k password-file
+```
+[Read here](https://www.cyberciti.biz/tips/linux-audit-files-to-see-who-made-changes-to-a-file.html)
+
 ## Remote execution
 
 ### Nagios NRPE
