@@ -36,3 +36,10 @@ $                     # successful, the 2nd one does not execute
 ```
 * [Read here](https://unix.stackexchange.com/questions/88850/precedence-of-the-shell-logical-operators#answer-88851)
 * [Read here](https://unix.stackexchange.com/questions/187145/whats-the-difference-between-semicolon-and-double-ampersand#187148)
+
+## Strip first chars of a string
+```bash
+var="pid: 1234"
+var=${var:5}
+```
+[](https://stackoverflow.com/questions/11469989/how-can-i-strip-first-x-characters-from-string-using-sed#answer-11470727)
