@@ -25,6 +25,12 @@ This is meant to be a collection of articles that I have found useful in relatio
 * Publisher: Digital Ocean
 * Author: Justin Ellingwood
 
+### Understanding Linux Process States
+[Understanding Linux Process States](https://access.redhat.com/sites/default/files/attachments/processstates_20120831.pdf)
+* Accesed 19 may 2024
+* Publisher: Red Hat
+* Author: Allison Pranger
+
 ## Network
 ### About TCP Wrappers
 [TCP Wrappers: qué son y cómo se utilizan en Linux](https://juncotic.com/tcp-wrappers-se-utilizan-linux/)
