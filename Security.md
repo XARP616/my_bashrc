@@ -124,3 +124,7 @@ openssl enc -aes-256-cbc -md sha512 -pbkdf2 -iter 1000000 -salt -in InputFilePat
 **Decryption is issued simply by adding `-d` switch to the end of the original command-line.**
 
 [Read here](https://askubuntu.com/questions/1093591/how-should-i-change-encryption-according-to-warning-deprecated-key-derivat#answer-1126882)
+
+# Miscellaneous
+## Docker Daemon Attack Surface
+[Read here](https://docs.docker.com/engine/security/#docker-daemon-attack-surface)
