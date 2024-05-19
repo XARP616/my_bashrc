@@ -109,4 +109,18 @@ Msfvenom can be used to export Metasploits' payloads.
 ### Shellcode to assembly / binary to ASM
 [How to convert shellcode to readable assembly code/instructions?](https://stackoverflow.com/questions/65471634/how-to-convert-shellcode-to-readable-assembly-code-instructions)
 
+# Cryptography
 
+### Cipher files with OpenSSL
+
+```bash
+openssl enc -cipher [-help] [-ciphers] [-in filename] [-out filename] [-pass arg] [-e] [-d] [-a] [-base64] [-A] [-k password] [-kfile filename] [-K key] [-iv IV] [-S salt] [-salt] [-nosalt] [-z] [-md digest] [-iter count] [-pbkdf2] [-p] [-P] [-bufsize number] [-nopad] [-debug] [-none] [-rand file...] [-writerand file] [-engine id]
+```
+
+Example
+```bash
+openssl enc -aes-256-cbc -md sha512 -pbkdf2 -iter 1000000 -salt -in InputFilePath -out OutputFilePath
+```
+**Decryption is issued simply by adding `-d` switch to the end of the original command-line.**
+
+[Read here](https://askubuntu.com/questions/1093591/how-should-i-change-encryption-according-to-warning-deprecated-key-derivat#answer-1126882)
