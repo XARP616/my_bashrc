@@ -60,6 +60,22 @@ For handy things in LaTeX
 ### Text striketrough (crossed)
 [Read here](https://tex.stackexchange.com/questions/23711/strikethrough-text)
 
+# Code
+
+## Copy-pasteable listings (no spaces)
+```
+\lstset{basicstyle = \ttfamily,columns=fullflexible}
+```
+[Read here](https://tex.stackexchange.com/questions/119218/how-to-copy-paste-from-lstlistings#answer-119223)
+
+## Assembly language listings
+```
+\begin{lstlisting}[language={[x86masm]Assembler}]
+push eax
+\end{lstlisting}
+```
+[Read here](https://tex.stackexchange.com/questions/557806/listings-package-language-assembler-could-not-be-loaded#answer-557822)
+
 ## Miscellaneous
 ### Opening and closing quotation marks
 [Read here](https://tex.stackexchange.com/questions/52351/quote-marks-are-backwards-using-texmaker-pdflatex)
