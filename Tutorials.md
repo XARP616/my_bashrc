@@ -30,8 +30,6 @@ Conclusions: although TTY may send SIGHUP control singal, the program may choose
 
 
 
-
-
 ## Permissions
 ### Directory permissions explanation
 [Read here](https://unix.stackexchange.com/questions/21251/execute-vs-read-bit-how-do-directory-permissions-in-linux-work#answer-21263)
@@ -166,4 +164,5 @@ EOL
 ### Sort disk usage `du` by size
 [Sort du by size](https://serverfault.com/questions/62411/how-can-i-sort-du-h-output-by-size)
 
-
+### Update alternatives
+[Read here](https://www.baeldung.com/linux/update-alternatives-command)
