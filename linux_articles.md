@@ -36,5 +36,12 @@ This is meant to be a collection of articles that I have found useful in relatio
 [TCP Wrappers: qué son y cómo se utilizan en Linux](https://juncotic.com/tcp-wrappers-se-utilizan-linux/)
 * Language: spanish
 * Accessed: 23 oct 2023
-* Published: Junco TIC
+* Publisher: Junco TIC
 * Author: Diego Córdoba
+
+## Security
+### What is SELinux?
+[What is SELinux?](https://www.redhat.com/en/topics/linux/what-is-selinux)
+* Accessed: 19 may 2024
+* Publisher: Red Hat
+* Author: 
