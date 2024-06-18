@@ -76,7 +76,7 @@ function empty() {
     for filetoremove in $@
     do
       if [ -e $filetoremove ]; then
-        echo "" > $filetoremove
+        echo -n "" > $filetoremove
       else
         echo "File '$filetoremove' does not exist"
       fi
