@@ -1,7 +1,10 @@
 # my_bashrc
 
-## Shortcut for Python3
-```alias py=python3```
+## Shortcut for Python
+```bash
+alias py2=python2.7
+alias py3=python3
+```
 
 ## For quickly creating Python3 virutal envirnoments
 ```alias pyenv="python3 -m venv"```
