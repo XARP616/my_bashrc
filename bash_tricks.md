@@ -42,4 +42,10 @@ $                     # successful, the 2nd one does not execute
 var="pid: 1234"
 var=${var:5}
 ```
-[](https://stackoverflow.com/questions/11469989/how-can-i-strip-first-x-characters-from-string-using-sed#answer-11470727)
+* [Read here](https://stackoverflow.com/questions/11469989/how-can-i-strip-first-x-characters-from-string-using-sed#answer-11470727)
+
+## Reverse endianness
+```bash
+echo -n 00d66d7e | tac -rs ..
+```
+* [Read here](https://stackoverflow.com/questions/22296839/need-a-shell-script-to-convert-big-endian-to-little-endian)
