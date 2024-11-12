@@ -52,3 +52,9 @@ Some libraries such as C's `math.h` must be added this way.
 [Tutorial here](https://cseweb.ucsd.edu/classes/fa09/cse141/tutorial_gcc_gdb.html#gdb)
 
 [Continuing and stepping](https://sourceware.org/gdb/download/onlinedocs/gdb/Continuing-and-Stepping.html#Continuing-and-Stepping)
+
+## C tricks
+
+### STDOUT
+* Replace characters on the same line ("deleting" characters)
+  The control command `\r` in `printf` returns to the start of the line, allowing to replace already written characters. Perfect for progress bars. 
